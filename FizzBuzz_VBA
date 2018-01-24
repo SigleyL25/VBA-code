@@ -1,0 +1,16 @@
+Sub FizzBuzz()
+    Dim i As Integer    
+    
+    For i = 1 To 100
+    
+        If i Mod 2 = 0 Then
+            Debug.Print ("Fizz " + CStr(i))
+        ElseIf i Mod 5 = 0 Then
+            Debug.Print ("Buzz " + CStr(i))
+        Else
+            Debug.Print ("FizzBuzz " + CStr(i))
+        End If
+        
+    Next i
+    
+End Sub
